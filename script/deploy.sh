@@ -1,0 +1,1 @@
+gulp && hexo d && pm2 reload 0
