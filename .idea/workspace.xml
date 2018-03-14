@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0618d2f-9ca6-4fb3-bbea-7d11ab8244b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/snippet/_config.yml" afterPath="$PROJECT_DIR$/themes/snippet/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/snippet/layout/_partial/nav.ejs" afterPath="$PROJECT_DIR$/themes/snippet/layout/_partial/nav.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -450,7 +447,7 @@
       <option name="presentableId" value="Default" />
       <updated>1521000931369</updated>
       <workItem from="1521000933621" duration="50000" />
-      <workItem from="1521026996026" duration="2384000" />
+      <workItem from="1521026996026" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="hexo生成静态文件。">
       <created>1521008776651</created>
@@ -571,11 +568,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521026104933</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="修改header">
+      <created>1521029399105</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1521029399105</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16429000" />
+    <option name="totallyTimeSpent" value="16459000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -663,7 +667,8 @@
     <MESSAGE value="修改部署脚本" />
     <MESSAGE value="添加文字标题" />
     <MESSAGE value="添加分类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加分类" />
+    <MESSAGE value="修改header" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
