@@ -5,7 +5,7 @@
 
 ## menu 
 menu:
-- page: home
+- page: 首页
   url: /
   icon: 
 - page: 前端
