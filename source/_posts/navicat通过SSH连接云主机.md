@@ -1,3 +1,7 @@
+---
+title: navicat通过SSH连接云主机
+---
+
 #### 环境：
 云主机配置（购买的vultr）：
 Ubuntu 16.10 (GNU/Linux 4.8.0-30-generic x86_64)
