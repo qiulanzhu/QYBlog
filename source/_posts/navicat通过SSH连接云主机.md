@@ -1,7 +1,7 @@
 ---
 title: navicat通过SSH连接云主机
 categories:
-- web前端
+- 前端
 ---
 
 #### 环境：

@@ -6,7 +6,7 @@
             <div class="search-area">
                 <% if (theme.jsonContent.searchLocal) { %>
                     <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢?">
-                    <button type="button" class="search-form-submit" id="search-local"><%= __('search_local') %></button>
+                    <button type="button" class="search-form-submit fa fa-search" id="search-local"><%= __('search_local') %></button>
                 <% } %>
                 <% if (theme.jsonContent.searchGoogle) { %>
                     <%- search_form({'button':'谷歌搜索','text':'Google Search'}) %>
