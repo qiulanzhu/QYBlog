@@ -67,4 +67,4 @@ vipTag.saveAsNewAPIHadoopDataset(conf)
 ```shell
 scan 'dw:vips', {'LIMIT' => 1}
 ```
-![](http://data.hiqiuyi.cn/img/2018-03-19/result.png)
+![](http://data.hiqiuyi.cn:8001/2018-03-19/result.png)
