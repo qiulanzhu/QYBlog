@@ -8,7 +8,9 @@ categories:
 >* 根据会员的基础信息(性别、年龄、生日等)和Pos消费记录，给每个会员打标签。
 >* 标签分为如下几类：`人口属性`、`地域属性`、`购物偏好`、`RFM基础标签`、`购物行为`。
 
+<div align=center>
 ![](http://data.hiqiuyi.cn:8001/2018-03-19/tag.png)
+</div>
 
 ## 二、数据准备
 >* 生成hive宽表：`会员基础信息表`左关联`Pos消费记录表`，关联字段取会员id。
@@ -67,4 +69,6 @@ vipTag.saveAsNewAPIHadoopDataset(conf)
 ```shell
 scan 'dw:vips', {'LIMIT' => 1}
 ```
+<div align=center>
 ![](http://data.hiqiuyi.cn:8001/2018-03-19/result.png)
+</div>
