@@ -20,7 +20,7 @@ categories:
 >3. 最后将会员标签存入HBASE,以会员id作为key。
 
 ## 四、参考代码
-### SparkSession配置 
+### 1.SparkSession配置
 ```scala
         val spark = SparkSession.builder()
             .appName("MarkTag")
@@ -31,14 +31,14 @@ categories:
 ```
 其中`mapred.input.dir.recursive`和`mapreduce.input.fileinputformat.input.dir.recursive`是为了使spark.sql执行hive-sql时，能够处理hive中LOCATION对应的数据存放在子目录下的情况。
 
-### HBASE配置
+### 2.HBASE配置
 ```scala
         val conf = HBaseConfiguration.create()
         conf.set(TableOutputFormat.OUTPUT_TABLE, "dw:vips")  //保存会员标签的表
         conf.set("mapreduce.job.outputformat.class",  "org.apache.hadoop.hbase.mapreduce.TableOutputFormat")
 ```
 
-### 根据会员id分组
+### 3.根据会员id分组
 ```scala
 val sql = s"select ${fieldStr} from dw.v_ysd_tag_aud_pos_info" 
 val rows = spark.sql(sql)
@@ -60,11 +60,11 @@ var vipTag = rows.rdd.map(item => {
 })
 ```
 
-### 保存标签到HBASE
+### 4.保存标签到HBASE
 ```scala
 vipTag.saveAsNewAPIHadoopDataset(conf)
 ```
-### shell查看hbase
+### 5.shell查看hbase
 ```shell
 scan 'dw:vips', {'LIMIT' => 1}
 ```
@@ -72,7 +72,7 @@ scan 'dw:vips', {'LIMIT' => 1}
 ![](http://data.hiqiuyi.cn:8001/2018-03-19/result.png)
 </div>
 
-### 前端效果
+### 6.前端效果
 <div align=center>
 ![](http://data.hiqiuyi.cn:8001/2018-03-19/tag_info.png)
 </div>
