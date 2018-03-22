@@ -71,3 +71,8 @@ scan 'dw:vips', {'LIMIT' => 1}
 <div align=center>
 ![](http://data.hiqiuyi.cn:8001/2018-03-19/result.png)
 </div>
+
+### 前端效果
+<div align=center>
+![](http://data.hiqiuyi.cn:8001/2018-03-19/tag_info.png)
+</div>
