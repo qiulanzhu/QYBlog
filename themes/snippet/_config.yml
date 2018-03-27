@@ -180,7 +180,7 @@ tencent_analytics:
 ### 百度文章推送
 baidu_push:
 
-#网站主题配置
+### 网站主题配置
 since: 2017
 robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.2.1

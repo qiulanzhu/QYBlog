@@ -98,5 +98,4 @@ window.onload = function() {
 	        }
 	    });
 	};
-
 };

@@ -1,1 +1,1 @@
-hexo s -p 80
+hexo s -p 4000
