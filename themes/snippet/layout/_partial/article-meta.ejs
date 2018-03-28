@@ -35,8 +35,11 @@
         <span class="date-meta"><%- date(post.date, format) %></span>
     </span>
 
+    <%if(!is_home()){ %>
     <span class="fa-wrap">
         <i class="fa fa-eye"></i>
         <span class="date-meta">Read Count</span>
     </span>
+    <%}%>
+
 </div>
