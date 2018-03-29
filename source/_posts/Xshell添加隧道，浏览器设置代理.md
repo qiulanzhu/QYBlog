@@ -26,6 +26,7 @@ categories:
 > 5. 点击确定。这样隧道添加完成。
     
 ### 浏览器设置代理
+
 > 1. 下载代理插件，方便快捷切换代理。 这里借助Chrome浏览器的`Proxy SwitchySharp`插件。（360浏览器也有这个插件）
 <div align=center>
 ![](http://data.hiqiuyi.cn:8001/2018-03-29/proxy_switchy.png)
