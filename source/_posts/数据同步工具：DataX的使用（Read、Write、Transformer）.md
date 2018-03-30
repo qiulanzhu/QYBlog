@@ -14,7 +14,7 @@ categories:
 > * Python
 
 > DataX工具包下载：
-<div align=center>![下载地址](http://datax-opensource.oss-cn-hangzhou.aliyuncs.com/datax.tar.gz)</div>
+[下载地址](http://datax-opensource.oss-cn-hangzhou.aliyuncs.com/datax.tar.gz)
 
 > 下载后解压至本地某个目录，进入bin目录，即可运行同步作业：
 > 自检脚本:
