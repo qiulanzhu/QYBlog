@@ -7,19 +7,16 @@
 menu:
 - page: 首页
   url: /
-  icon: 
-- page: 前端
-  url: /categories/前端/
-  icon: 
-- page: 后端
-  url: /categories/后端/
-  icon: 
-- page: 工具
-  url: /categories/工具/
   icon:
-- page: 资源
-  url: /categories/资源/
-  icon: 
+- page: Spark
+  url: /categories/Spark/
+  icon:
+- page: 翻译
+  url: /categories/前端/
+  icon:
+- page: 工具使用
+  url: /categories/工具使用/
+  icon:
 
 ## favicon 
 favicon: /favicon.ico
