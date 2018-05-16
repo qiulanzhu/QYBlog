@@ -462,8 +462,8 @@ pre {
   overflow: hidden;
 }
 .post .post-body p {
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 2;
 }
 .post .post-body p img {
   max-width: 100%;
@@ -619,14 +619,17 @@ pre {
   margin: 0 0 24px 6px;
   padding-left: 16px;
   list-style-type: square;
+  font-size: 15px
 }
 .post-content ol {
   margin: 0 0 24px 6px;
   padding-left: 16px;
   list-style-type: decimal;
+  font-size: 15px
 }
 .post-content li {
   margin-bottom: 0.2em;
+  font-size: 15px
 }
 .post-content li ul {
   margin-top: 0;
