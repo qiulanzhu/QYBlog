@@ -46,13 +46,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: bold;
   color: #303030;
 }
 h1 {
   font-size: 2em;
 }
 h2 {
+  line-height: 1.5;
+  border-bottom: 1px solid #ececec;
+  display: block;
   font-size: 1.5em;
 }
 h3 {
@@ -506,8 +509,9 @@ pre {
 .post-content h2 {
   font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
   color: #333;
-  font-size: 1.5em;
-  margin: 0.83em 0;
+  font-size: 1.8em;
+  margin-top: 1.8em;
+  margin-bottom: 1em;
 }
 .post-content h3 {
   font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
