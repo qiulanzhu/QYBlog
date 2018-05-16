@@ -1,4 +1,4 @@
-<% if(site.categories.length){ %>
+<% if(site.categories.length && is_home()){ %>
     <div class="widget">
         <h3 class="title"><%= __('categories') %></h3>
         <%- list_categories({

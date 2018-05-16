@@ -36,6 +36,10 @@ widgets:
   - archive
   - tagcloud
   - friends
+  - catalog
+
+## 目录
+catalog: 目录
 
 ## 搜索
 jsonContent:
@@ -89,7 +93,7 @@ arch_config:
 
 ## 友链设置
 links:
-  - 个人博客: http://www.shenliyang.com
+  - 个人博客: http://data.hiqiy.cn
 
 
 # 主题自定义个性化配置
