@@ -1,4 +1,4 @@
-<% if (site.tags.length && !is_post()){ %>
+<% if (site.tags.length && !(url_for(page.path) != '/index.html' && url_for(page.path).indexOf('categories') == -1)){ %>
   <div class="widget">
     <h3 class="title"><%= __('tagcloud') %></h3>
     <div class="content tag-cloud">

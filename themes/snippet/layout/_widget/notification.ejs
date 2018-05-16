@@ -1,4 +1,4 @@
-<% if(theme.notification && !is_post()){ %>
+<% if(theme.notification && !(url_for(page.path) != '/index.html' && url_for(page.path).indexOf('categories') == -1)){ %>
     <div class="widget notification">
         <h3 class="title">网站公告</h3>
         <div>

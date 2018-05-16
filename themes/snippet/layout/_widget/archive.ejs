@@ -1,4 +1,4 @@
-<% if(site.posts.length && !is_post()){ %>
+<% if(site.posts.length && !(url_for(page.path) != '/index.html' && url_for(page.path).indexOf('categories') == -1)){ %>
     <div class="widget">
       <h3 class="title"><%= __('archives') %></h3>
         <%- list_archives({

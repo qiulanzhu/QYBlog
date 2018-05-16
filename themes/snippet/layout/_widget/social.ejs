@@ -1,4 +1,4 @@
-<% if(theme.social && !is_post()){ %>
+<% if(theme.social && !(url_for(page.path) != '/index.html' && url_for(page.path).indexOf('categories') == -1)){ %>
         <div class="widget">
             <h3 class="title"><%= __('social') %></h3>
             <div class="content social">

@@ -1,4 +1,4 @@
-<% if(site.categories.length && !is_post()){ %>
+<% if(site.categories.length && !(url_for(page.path) != '/index.html' && url_for(page.path).indexOf('categories') == -1)){ %>
     <div class="widget">
         <h3 class="title"><%= __('categories') %></h3>
         <%- list_categories({
