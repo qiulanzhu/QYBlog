@@ -1,4 +1,4 @@
-<% if (theme.links && theme.links.length && is_home()){ %>
+<% if (theme.links && theme.links.length && !is_post()){ %>
     <div class="widget">
         <h3 class="title"><%= __('friend_links') %></h3>
         <div class="content friends-link">
@@ -7,9 +7,9 @@
                 for(var property in item){
                     name = property;
                     url = item[property];
-                }%>
+                } %>
             <a href="<%- url %>" class="fa" target="_blank"><%= name%></a>
-        <%});%>
+        <% }); %>
         </div>
     </div>
 <% } %>

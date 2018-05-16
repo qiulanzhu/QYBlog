@@ -1,4 +1,4 @@
-<% if(site.posts.length && is_home()){%>
+<% if(site.posts.length && !is_post()){ %>
     <div class="widget">
       <h3 class="title"><%= __('archives') %></h3>
         <%- list_archives({
@@ -10,4 +10,4 @@
             }
           }) %>
     </div>
-<%}%>
+<% } %>

@@ -1,4 +1,4 @@
-<% if (site.tags.length && is_home()){ %>
+<% if (site.tags.length && !is_post()){ %>
   <div class="widget">
     <h3 class="title"><%= __('tagcloud') %></h3>
     <div class="content tag-cloud">

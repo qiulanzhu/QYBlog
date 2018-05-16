@@ -1,8 +1,8 @@
-<%if(theme.notification && is_home()){%>
+<% if(theme.notification && !is_post()){ %>
     <div class="widget notification">
         <h3 class="title">网站公告</h3>
         <div>
             <%- theme.notification%>
         </div>
     </div>
-<%}%>
+<% } %>
