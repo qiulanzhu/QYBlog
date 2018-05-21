@@ -135,7 +135,7 @@ declaration:
 
 ### gitment
 gitment:
-  enable: false
+  enable: true
   owner: 
   repo: 
   client_id: 
@@ -144,7 +144,7 @@ gitment:
 
 ### 来必力
 livere: 
-  enable: true
+  enable: false
   livere_uid: MTAyMC8zNDgzMy8xMTM3MA==
 
 ### 友言评论(服务不稳定)
