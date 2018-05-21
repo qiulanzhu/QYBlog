@@ -136,10 +136,10 @@ declaration:
 ### gitment
 gitment:
   enable: true
-  owner: 
-  repo: 
-  client_id: 
-  client_secret: 
+  owner: hiqiuyi
+  repo: https://github.com/qiulanzhu/QYBlog.git
+  client_id: cf1461b9b0cd36eff840
+  client_secret: c1a9e0de7c9a7014bdc75c536687894b05aafd45
   perPage: 10
 
 ### 来必力
