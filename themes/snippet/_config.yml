@@ -135,7 +135,7 @@ declaration:
 
 ### gitment
 gitment:
-  enable: true
+  enable: false
   owner: qiulanzhu
   repo: QYBlog
   client_id: cf1461b9b0cd36eff840
@@ -154,7 +154,7 @@ uyan:
 
 ### Disqus评论
 disqus:
-  enable: false
+  enable: true
   shortname: snippet
   count: false
 
