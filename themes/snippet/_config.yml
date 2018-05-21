@@ -154,13 +154,13 @@ uyan:
 
 ### Disqus评论
 disqus:
-  enable: true
+  enable: false
   shortname: snippet
   count: false
 
 ### 畅言评论(需要ICP备案)
 changyan:
-  enable: false
+  enable: true
   appid: cyt8KmUC1
   conf: prod_855a68d3b3d91855360a6215672a505a
 
